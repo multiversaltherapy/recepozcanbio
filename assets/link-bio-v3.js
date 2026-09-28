@@ -12,8 +12,8 @@
 
   const copy = {
     en: {
-      brand: "Recep ÖZCAN",
-      pageTitle: "Recep ÖZCAN | Official Links",
+      brand: "Recep Özcan",
+      pageTitle: "Recep Özcan | Official Links",
       officialLinks: "Official links",
       share: "Share",
       shareAria: "Share Profile",
@@ -38,8 +38,8 @@
       copyFailed: "Copy failed."
     },
     tr: {
-      brand: "Recep ÖZCAN",
-      pageTitle: "Recep ÖZCAN | Resmî Bağlantılar",
+      brand: "Recep Özcan",
+      pageTitle: "Recep Özcan | Resmî Bağlantılar",
       officialLinks: "Resmî bağlantılar",
       share: "Paylaş",
       shareAria: "Profili paylaş",
@@ -107,7 +107,7 @@
     text("#contactDetail", "contactDetail");
 
     text("#footer-disclaimer", "disclaimer");
-    text("#privacy-note", "privacy");
+    
 
     if (persist) {
       try { localStorage.setItem("recep-language", nextLanguage); } catch (_) {}
